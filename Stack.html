@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "Stack.css">
+    <title>Stack</title>
+</head>
+<body>
+    <div class="topleft">
+        <div class="dropdown">
+            <button class = "dropdownbtn">CHOOSE OPERATION</button>
+            <div class="operations">
+                <button id = "push">PUSH</button>
+                <button id = "pop">POP</button>
+                <button id = "peek">PEEK</button>
+                <button id = "size">SIZE</button>
+                <button id = "isEmpty">ISEMPTY</button>
+            </div>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="element"></div>
+    </div> 
+    <div class = "window">
+        <div class = "box"></div>
+        <div id="pushinput" class = "pushinput">
+            <label for = "element">Enter element to be pushed</label><br>
+            <input type = "text" id = "e">
+        </div>
+        
+        <div class="popoutput"></div>
+        <div class="peekoutput"></div>
+        <div class="sizeoutput"></div>
+        <div class="isEmptyoutput"></div>
+        <button id = "submitElement">Submit</button>
+    </div>
+    <script src = "Stack.js"></script>
+</body>
+</html>
