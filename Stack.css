@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+.topleft{
+    float: left;
+    width: 50%;
+    height: 50vh;
+}
+.rightcolumn{
+    float: right;
+    width: 50%;
+    height: 100vh;
+} 
+.window .box{
+    display: none;
+    width: 10vw;
+    height: 10vh;
+    left: 1400px;
+    position: absolute;
+    background-color: blue;
+    animation-name: fall;
+    animation-duration: 6s;
+}
+@keyframes fall{
+    0% {top: 0px}
+    100% {top: 700px}
+}
+.window{
+    float: left;
+    width: 50%;
+    height: 50vh;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdownbtn{
+    padding: 16px;
+}
+.operations{
+    float: bottom;
+    display: none; /* Hides the element */
+    position: absolute; /* The element is positioned relative to its first positioned (not static) ancestor element */
+}
+.operations button{
+    display: block; /* To make the buttons appear one below another */
+    padding: 16px;
+    min-width: 175px;
+}
+.dropdown:hover .operations{display: block;} /* Shows the operation buttons upon hover */
+#pushinput{
+    display: none;
+}
