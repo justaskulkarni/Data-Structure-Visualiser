@@ -21,6 +21,7 @@
     position: absolute;
     background-color: blue;
     animation-name: fall;
+    animation-fill-mode: forwards;
     animation-duration: 6s;
 }
 @keyframes fall{
@@ -51,5 +52,23 @@
 }
 .dropdown:hover .operations{display: block;} /* Shows the operation buttons upon hover */
 #pushinput{
+    display: none;
+}
+#pushoutput{
+    display: none;
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+#popoutput{
+    display:none;
+}
+#peekoutput{
+    display: none;
+}
+#sizeoutput{
+    display:none;
+}
+#isEmptyoutput{
     display: none;
 }
