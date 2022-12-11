@@ -29,11 +29,19 @@
             <label for = "element">Enter element to be pushed</label><br>
             <input type = "text" id = "e">
         </div>
-        
-        <div class="popoutput"></div>
-        <div class="peekoutput"></div>
-        <div class="sizeoutput"></div>
-        <div class="isEmptyoutput"></div>
+        <div id="pushoutput" class = "pushoutput"></div>
+        <div id="popoutput">
+            <p>The element popped is <span class="popped"></span></p>
+        </div>
+        <div id="peekoutput">
+            <p>The element at the top of the stack is <span class="top"></span></p>
+        </div>
+        <div id="sizeoutput">
+            <p>Currently there are <span class="total"></span> elements in the stack</p>
+        </div>
+        <div id="isEmptyoutput">
+            <p>The stack is currently <span class="empty"></span></p>
+        </div>
         <button id = "submitElement">Submit</button>
     </div>
     <script src = "Stack.js"></script>
