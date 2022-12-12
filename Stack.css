@@ -13,20 +13,117 @@
     width: 50%;
     height: 100vh;
 } 
-.window .box{
+.window .box1{
     display: none;
     width: 10vw;
     height: 10vh;
     left: 1400px;
     position: absolute;
     background-color: blue;
-    animation-name: fall;
+    border: 2px solid black;
+    animation-name: fall1;
     animation-fill-mode: forwards;
     animation-duration: 6s;
 }
-@keyframes fall{
+.window .box2{
+    display: none;
+    width: 10vw;
+    height: 10vh;
+    left: 1400px;
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    animation-name: fall2;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+}
+.window .box3{
+    display: none;
+    width: 10vw;
+    height: 10vh;
+    left: 1400px;
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    animation-name: fall3;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+}
+.window .box4{
+    display: none;
+    width: 10vw;
+    height: 10vh;
+    left: 1400px;
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    animation-name: fall4;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+}
+.window .box5{
+    display: none;
+    width: 10vw;
+    height: 10vh;
+    left: 1400px;
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    animation-name: fall5;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+}
+.window .box6{
+    display: none;
+    width: 10vw;
+    height: 10vh;
+    left: 1400px;
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    animation-name: fall6;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+}
+.window .box7{
+    display: none;
+    width: 10vw;
+    height: 10vh;
+    left: 1400px;
+    position: absolute;
+    background-color: blue;
+    border: 2px solid black;
+    animation-name: fall7;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+}
+@keyframes fall1{
     0% {top: 0px}
     100% {top: 700px}
+}
+@keyframes fall2{
+    0% {top: 0px}
+    100% {top: 617px}
+}
+@keyframes fall3{
+    0% {top: 0px}
+    100% {top: 534px}
+}
+@keyframes fall4{
+    0% {top: 0px}
+    100% {top: 451px}
+}
+@keyframes fall5{
+    0% {top: 0px}
+    100% {top: 368px}
+}
+@keyframes fall6{
+    0% {top: 0px}
+    100% {top: 285px}
+}
+@keyframes fall7{
+    0% {top: 0px}
+    100% {top: 202px}
 }
 .window{
     float: left;
@@ -55,6 +152,42 @@
     display: none;
 }
 #pushoutput{
+    display: none;
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+#pushoutput2{
+    display: none;
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+#pushoutput3{
+    display: none;
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+#pushoutput4{
+    display: none;
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+#pushoutput5{
+    display: none;
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+#pushoutput6{
+    display: none;
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+#pushoutput7{
     display: none;
     font-size: 2rem;
     padding-left: 70px;
